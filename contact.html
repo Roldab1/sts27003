@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Synergy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><img src="assets/logo.png" alt="Synergy Logo" style="height:40px; margin-right:10px;"> Synergy</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="siteNav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="sources.html">Sources</a>
+        <a href="tips.html">Tips</a>
+        <a href="contact.html">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Energy Quiz</h1>
+        <p>Test your knowledge about energy and Synergy!</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Challenge Yourself</h2>
+        <p>Take this quiz to see how much you know about clean energy and sustainability. Good luck!</p>
+        
+        <div id="quizContainer" class="quiz-container">
+          <div id="quizContent"></div>
+          <div id="quizResults" class="quiz-results" style="display:none;">
+            <h3>Quiz Complete! 🎉</h3>
+            <p>You scored <span id="quizScore">0</span>/<span id="quizTotal">0</span></p>
+            <p id="quizMessage"></p>
+            <button class="btn" onclick="location.reload()">Take Quiz Again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Our Members</h2>
+        <p>Get to know the core team driving Synergy.</p>
+        <div class="grid member-grid">
+          <div class="member-card">
+            <div class="member-avatar">
+              <img src="assets/members/arnold.png" alt="Arnold" onerror="this.style.display='none'">
+            </div>
+            <h3>Arnold A. Ababa</h3>
+            <p class="role">Leader, Web Developer</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">
+              <img src="assets/members/louis.png" alt="Louis Alfonso M. Costanilla" onerror="this.style.display='none'">
+            </div>
+            <h3>Louis Alfonso M. Costanilla</h3>
+            <p class="role">Researcher, Tester</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">
+              <img src="assets/members/cyrus.png" alt="Cyrus Repaso" onerror="this.style.display='none'">
+            </div>
+            <h3>Cyrus Repaso</h3>
+            <p class="role">Web Developer, Content Writer, Designer</p>
+          </div>
+          <div class="member-card">
+            <div class="member-avatar">
+              <img src="assets/members/john.png" alt="John Edrian O. Diaz" onerror="this.style.display='none'">
+            </div>
+            <h3>John Edrian O. Diaz</h3>
+            <p class="role">Content Writer, Designer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <p>Have questions or want to collaborate? Send us a message below.</p>
+        <form class="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="your@email.com" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" placeholder="Your message..." rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 Synergy — Sustainable Energy Educational Site</small>
+      <nav class="footer-nav"><a href="sources.html">Sources</a> • <a href="tips.html">Tips</a> • <a href="contact.html">Quiz</a></nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

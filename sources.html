@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Synergy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><img src="assets/logo.png" alt="Synergy Logo" style="height:40px; margin-right:10px;"> Synergy</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="siteNav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="sources.html">Sources</a>
+        <a href="tips.html">Tips</a>
+        <a href="contact.html">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Energy Sources</h1>
+        <p>From fossil fuels to renewables—understanding our energy options</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Renewable Energy Sources</h2>
+        <p>Renewables are naturally replenished and produce little to no greenhouse gas emissions. They're central to Synergy.</p>
+        <div class="grid cards">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/solar-bg.png');">
+                <h3> Solar</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/solar-bg.png');">
+                <h3>☀️ Solar</h3>
+                <p><strong>How:</strong> Photovoltaic cells convert sunlight to electricity. Solar thermal systems provide heat.</p>
+                <p><strong>Pros:</strong> Abundant, scalable, costs dropping.</p>
+                <p><strong>Cons:</strong> Weather-dependent, storage needed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/wind-bg.png');">
+                <h3> Wind</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/wind-bg.png');">
+                <h3>💨 Wind</h3>
+                <p><strong>How:</strong> Wind turbines convert moving air into electricity.</p>
+                <p><strong>Pros:</strong> Efficient, works day/night.</p>
+                <p><strong>Cons:</strong> Variable, requires suitable locations.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/hydro-bg.png');">
+                <h3> Hydroelectric</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/hydro-bg.png');">
+                <h3>💧 Hydroelectric</h3>
+                <p><strong>How:</strong> Water flow or dams drive turbines.</p>
+                <p><strong>Pros:</strong> Reliable, long-lasting.</p>
+                <p><strong>Cons:</strong> Geographically limited, environmental impact.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/geothermal-bg.png');">
+                <h3> Geothermal</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/geothermal-bg.png');">
+                <h3>🌍 Geothermal</h3>
+                <p><strong>How:</strong> Heat from Earth's interior is tapped for electricity and heating.</p>
+                <p><strong>Pros:</strong> Constant baseload.</p>
+                <p><strong>Cons:</strong> Location-specific.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/biomass-bg.png');">
+                <h3> Biomass</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/biomass-bg.png');">
+                <h3>🌾 Biomass</h3>
+                <p><strong>How:</strong> Organic waste or crops are burned or converted for energy.</p>
+                <p><strong>Pros:</strong> Renewable, uses waste.</p>
+                <p><strong>Cons:</strong> Land use, sustainability concerns.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/tidal-bg.png');">
+                <h3> Tidal & Wave</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/tidal-bg.png');">
+                <h3>🌊 Tidal & Wave</h3>
+                <p><strong>How:</strong> Ocean movement generates power.</p>
+                <p><strong>Pros:</strong> Predictable, dense.</p>
+                <p><strong>Cons:</strong> Early stage, infrastructure cost.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Nonrenewable Energy Sources</h2>
+        <p>These energy sources are finite and often produce emissions. We're transitioning away from them.</p>
+        <div class="grid cards">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/fossil-bg.png');">
+                <h3> Fossil Fuels</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/fossil-bg.png');">
+                <h3>🛢️ Fossil Fuels</h3>
+                <p><strong>Coal, oil, natural gas.</strong> Formed from ancient organisms over millions of years.</p>
+                <p><strong>Current share:</strong> ~80% of global energy.</p>
+                <p><strong>Problem:</strong> Greenhouse gases and pollution.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/nuclear-bg.png');">
+                <h3> Nuclear</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/nuclear-bg.png');">
+                <h3>⚛️ Nuclear</h3>
+                <p><strong>How:</strong> Fission splits atoms, releasing immense heat to generate electricity.</p>
+                <p><strong>Pros:</strong> Low-carbon, high output.</p>
+                <p><strong>Cons:</strong> Waste disposal, public concern, high upfront cost.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Emerging & Hybrid Technologies</h2>
+        <p>New innovations are accelerating the clean energy transition:</p>
+        <div class="grid cards">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/storage-bg.png');">
+                <h3> Energy Storage</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/storage-bg.png');">
+                <h3>🔋 Energy Storage</h3>
+                <p>Batteries, pumped hydro, compressed air—store energy when supply exceeds demand.</p>
+                <p>Essential for renewable energy reliability and grid stability.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/smartgrid-bg.png');">
+                <h3> Smart Grids</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/smartgrid-bg.png');">
+                <h3>🌐 Smart Grids</h3>
+                <p>AI-powered networks optimize energy distribution, reduce waste, and balance supply/demand.</p>
+                <p>Enables seamless integration of distributed renewable sources.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image:url('assets/hydrogen-bg.png');">
+                <h3> Hydrogen Fuel</h3>
+              </div>
+              <div class="flip-card-back" style="background-image:url('assets/hydrogen-bg.png');">
+                <h3>💎 Hydrogen Fuel</h3>
+                <p>Clean fuel from water electrolysis; promises zero-emission transport and industry.</p>
+                <p>Emerging technology with massive potential for decarbonization.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Global Energy Outlook</h2>
+        <p>The shift to renewables is accelerating. Renewable energy now accounts for over 30% of global electricity generation and growing. By 2050, most scenarios show renewables as the dominant global energy source.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p><a class="btn" href="tips.html">→ What Can You Do?</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 Synergy — Sustainable Energy Educational Site</small>
+      <nav class="footer-nav"><a href="sources.html">Sources</a> • <a href="tips.html">Tips</a> • <a href="contact.html">Quiz</a></nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
